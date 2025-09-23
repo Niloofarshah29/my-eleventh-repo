@@ -1,7 +1,7 @@
 # my-eleventh-repo
 testing
 from flask import Flask, request, redirect
-import sqlite3, string, random
+import sqlite3, string, rando
 
 app = Flask(__name__)
 db = sqlite3.connect("urls.db", check_same_thread=False)
