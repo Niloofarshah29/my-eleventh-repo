@@ -1,5 +1,5 @@
 # my-eleventh-repo
-testin
+testing
 from flask import Flask, request, redirect
 import sqlite3, string, random
 
