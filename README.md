@@ -1,6 +1,6 @@
 # my-eleventh-repo
 testing
-from flask import Flask, request, redirect
+from flask import Flask, request, redirec
 import sqlite3, string, random
 
 app = Flask(__name__)
