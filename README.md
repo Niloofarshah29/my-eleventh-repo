@@ -7,7 +7,7 @@ app = Flask(__name__)
 db = sqlite3.connect("urls.db", check_same_thread=False)
 db.execute("CREATE TABLE IF NOT EXISTS urls (code TEXT, url TEXT)")
 
-def generate_code():
+def generat_code():
     return ''.join(random.choices(string.ascii_letters + string.digits, k=6))
 
 @app.route("/shorten", methods=["POST"])
