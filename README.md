@@ -3,7 +3,7 @@ testing
 from flask import Flask, request, redirect
 import sqlite3, string, random
 
-app = Flask(__name__)
+app = Flas(__name__)
 db = sqlite3.connect("urls.db", check_same_thread=False)
 db.execute("CREATE TABLE IF NOT EXISTS urls (code TEXT, url TEXT)")
 
